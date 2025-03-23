@@ -1,0 +1,4 @@
+# Device,Type,Power-on Hours,Temperature,Reallocated Sectors
+1,ATA,6543,30,N/A
+2,ATA,2345,40,90
+3,NVMe,1200,35,N/A
