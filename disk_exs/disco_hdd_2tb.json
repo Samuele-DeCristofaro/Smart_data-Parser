@@ -1,0 +1,46 @@
+{
+    "json_format_version": [1, 0],
+    "smartctl": {
+        "version": [7, 4],
+        "pre_release": false,
+        "svn_revision": "5530",
+        "platform_info": "x86_64-linux-gnu",
+        "argv": ["smartctl", "-j", "-A", "/dev/sdc"],
+        "drive_database_version": { "string": "7.3/5528" },
+        "exit_status": 0
+    },
+    "device": {
+        "name": "/dev/sdc",
+        "info_name": "/dev/sdc",
+        "type": "ata",
+        "protocol": "ATA"
+    },
+    "ata_smart_attributes": {
+        "revision": 32,
+        "table": [
+            {
+                "id": 1,
+                "name": "Raw_Read_Error_Rate",
+                "value": 85,
+                "worst": 70,
+                "raw": { "value": 100, "string": "100" }
+            },
+            {
+                "id": 9,
+                "name": "Power_On_Hours",
+                "value": 90,
+                "worst": 90,
+                "raw": { "value": 6543, "string": "6543h" }
+            },
+            {
+                "id": 194,
+                "name": "Temperature_Celsius",
+                "value": 30,
+                "worst": 50,
+                "raw": { "value": 30, "string": "30" }
+            }
+        ]
+    },
+    "power_on_time": { "hours": 6543 },
+    "temperature": { "current": 30 }
+}
